@@ -8,6 +8,7 @@ import { heroStack, heroStatIds } from "@/config/profile";
 import { ResumeDownloadButton } from "@/features/wallet/components/resume-download-button";
 import { Link } from "@/i18n/navigation";
 import { WalletPreviewCard } from "./wallet-preview-card";
+import { SectionLink } from "@/features/portfolio/components/section-link";
 
 export function HeroSection() {
   const t = useTranslations("hero");
@@ -48,7 +49,7 @@ export function HeroSection() {
           <Reveal delay={0.18}>
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <Button asChild size="xl">
-                <Link href="/#projects">{t("primaryCta")}</Link>
+                <SectionLink section="projects">{t("primaryCta")}</SectionLink>
               </Button>
               <ResumeDownloadButton variant="outline" size="xl" label={t("secondaryCta")} />
             </div>
