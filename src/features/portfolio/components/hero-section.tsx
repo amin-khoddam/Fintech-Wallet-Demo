@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Surface } from "@/components/ui/surface";
 import { heroStack, heroStatIds } from "@/config/profile";
 import { ResumeDownloadButton } from "@/features/wallet/components/resume-download-button";
-import { Link } from "@/i18n/navigation";
 import { WalletPreviewCard } from "./wallet-preview-card";
 import { SectionLink } from "@/features/portfolio/components/section-link";
 
